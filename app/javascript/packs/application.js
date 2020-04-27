@@ -20,6 +20,7 @@ console.log('Hello World from Webpacker')
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '../components/app';
+import '../stylesheet/custom.scss'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
